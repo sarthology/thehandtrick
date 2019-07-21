@@ -14,7 +14,7 @@ document.body.appendChild(renderer.domElement);
 // Creating 3D object
 var geometry = new THREE.BoxGeometry(1, 2, 1);
 var material = new THREE.MeshBasicMaterial({
-  color: "rgba(3, 197, 221, 0.81)",
+  color: "rgb(3, 197, 221)",
   wireframe: true,
   wireframeLinewidth: 1
 });
